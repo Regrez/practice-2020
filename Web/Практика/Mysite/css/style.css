@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    background-color: #e8e8e8;
+    height: 100%;
+    width: 100%;
+    font-size: 100px;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;} 
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-style: inherit;font-weight: 400;}
+/*-------------------------------------------------------------------------------------*/
+
+
+.content {
+padding: 168px 0px 137px 0px;
+max-width: 841px;
+margin: 0px auto;
+}
+
+.content_top{
+text-align: center;
+margin: 0px 0px 65px 0px;
+}
+
+
+.content-bottom-info_list{
+margin:0px 0px 59px 0px;
+}
+.content-bottom-info_list li{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    /* background: url('../img/icons/check_icon.png') left no-repeat; */
+    padding: 0px 0px 0px 35px;
+}
+.content-bottom-info_list li:last-child{
+    margin: 0;
+}
+
+.content-bottom-info_list li:nth-child(1){
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+color: #273d46;
+margin: 0px 0px 15px 0px;
+}
+.content-bottom-info_list li:nth-child(2){
+    color: #80b7b3;
+    font-style: italic;
+}
+.content-bottom-info_list li:nth-child(3){
+    color: #273d46;
+    font-weight: 700;
+}
+.content-bottom-info_list li:nth-child(4){
+    color: #273d46;
+    text-decoration: line-through;
+}
+.content-bottom-info_list li:nth-child(4){
+    opacity: 0.3;
+}
+.content-bottom-info_list li::before{
+    content: url(../img/icons/check_icon.png);
+    margin: 0px 20px 0px -35px ;
+
+}
+.content-bottom-info_list2 li{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px 50px 20px 0px;
+    /* background: url('../img/icons/check_icon.png') left no-repeat; */
+    padding: 0px 0px 0px 35px;
+}
+.content-bottom-info_list2 li:hover:nth-child(2){
+    color: red;
+    /* background: url('../img/icons/check_icon2.png') left no-repeat; */
+    padding: 0px 0px 0px 35px;
+}
+.content-bottom-info_list2 li::before{
+    content: url(../img/icons/check_icon.png);
+    margin: 0px 20px 0px -35px ;
+
+}
+.content-bottom-info_list2 li:hover:nth-child(2)::before{
+    content: url(../img/icons/check_icon2.png);
+    
+}
+
+.content-bottom-info_link {
+    display: inline-block;
+    height: 43px;
+    line-height: 43px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    background-color:#80b7b3;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    margin: 5px;
+}
+.content-bottom-info_link span{
+    padding: 5px 5px 0px 0px;
+    /* background: url('../img/icons/Shape_2.png') right no-repeat; */
+}
+
+.content-bottom-info_link:hover{
+    background-color: #3a5856;
+
+}
+.content-bottom-info_link:active{
+    background-color: #818181;
+}
+.content-bottom-info_link span::after{
+    content: url(../img/icons/Shape_2.png);
+    margin: -20px -10px 10px 10px
+}
+.content_text{
+    padding: 10px 300px 10px 0px;
+    margin: 20px;
+    border: 1px solid #b0b0b0;
+}
+/*.content_text:focus{
+    box-shadow: 0 0 200px rgba(213, 133, 127, 0.93);
+
+}*/
+.text{
+    padding: 100px 0px 0px 50px;
+    margin: 0px 0px;
+}
+.text:first-line {
+    color: red;
+}

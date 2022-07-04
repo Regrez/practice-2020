@@ -1,0 +1,160 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color:white;
+    padding: 10px;
+    margin: 50px;
+}
+.section-all  {
+  background-color: #787575;
+}
+
+h1 {
+  font-size: 15pt;
+  text-align: center;
+  color: #20bcd5;
+  padding: 18px 0 18px 0;
+  margin: 0 0 30px 0;
+}
+h1 span {
+  border: 4px dotted #20bcd5;
+  padding: 10px;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.img-circle {
+  border: 3px solid white;
+  border-radius: 50%
+}
+.section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#header {
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcSW7eG0f86dqqackBbhxqRTRPkAKkUO1S3uDTXoDDXgDtVCvLw);
+  background-size:contain;
+}
+#header img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin:auto;
+}
+#header p {
+  font-size: 25pt;
+  color: #000000;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  
+}
+table {
+  width: 100%;
+}
+table, th, td {
+  border: 2px solid #cecece;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+}
+.selected {
+  background-color: #000;
+  font-weight: bold;
+  color: white;
+}
+li {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+strong {
+  color: #ff3300;
+}
+progress {
+  width: 70%;
+  height: 20px;
+  color: #000000;
+  background: #ffffff;
+}
+progress::webkit-progress-bar {
+  background: #ffffff;
+}
+progress::webkit-progress-value {
+  background: #000000;
+}
+progress::-moz-progress-bar {
+  color: #000000;
+  background: #ffffff;
+}
+itfame, audio {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #f36f48;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #f36f48;
+}
+form {
+  text-align: center;
+  margin-top: 0;
+}
+.submit {
+  background-color: #3fb6b2;
+  padding: 12px 45px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin: 0;
+  font-weight: bold;
+}
+.submit:hover {
+  background-color: #43a09d;
+}
+textarea {
+  height: 100px;
+}
+input, textarea {
+  margin-bottom: 10px;
+  font-size: 11pt;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #efefef;
+  color: #787575;
+  border-radius: 5px;
+  width: 70%;
+  outline: none;
+}
+.face {
+  transform: scale(0.4);
+  margin: 0 auto;
+  display: block;
+  margin-top: -35px;
+  margin-bottom: -25px;
+}
+#contacts a {
+  text-decoration: none;
+}
+#contacts img:hover {
+  opacity: 0.8;
+}
+#contacts {
+  text-align: center;
+}
+.copyright {
+  font-size: 8pt;
+  text-align:right;
+  padding-bottom: 10px;
+  color: grey;
+}
